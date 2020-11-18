@@ -35,5 +35,3 @@ jobs:
           username: gonigo
           password: prnzeK3diUy6BCG
           repository: gonigo/pushgateway-cleaner
-          tag_with_ref: true
-          tag_with_sha: true
