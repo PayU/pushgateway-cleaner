@@ -1,4 +1,4 @@
-name: Test, build and push PushGateway-Cleanr image
+name: Test, Build and Push PushGateway-Cleanr Image
 on:
   push:
     branches:
@@ -9,8 +9,18 @@ jobs:
     name: TODO
     runs-on: ubuntu-latest
     steps:
-      - run: npm install
-      - run: PUSHGATEWAY_URL=http://localhost:9091 npm run test
+      - uses: actions/checkout@v2
+      - name: Use Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: '12.x'
+      - name: Install dependencies
+        run: npm install
+      - name: Run Tests (Mocha)
+        run: npm test
+        env:
+          PUSHGATEWAY_URL: http://localhost:9091
+
 
   build-and-push:
     name: Push Docker image to Docker Hub
