@@ -1,0 +1,29 @@
+name: Test, build and push PushGateway-Cleanr image
+on:
+  push:
+    branches:
+      - add_code
+
+jobs:
+  test:
+    name: TODO
+    runs-on: ubuntu-latest
+    steps:
+      - run: npm install
+      - run: PUSHGATEWAY_URL=http://localhost:9091 npm run test
+
+  build-and-push:
+    name: Push Docker image to Docker Hub
+    runs-on: ubuntu-latest
+    needs: test
+    steps:
+      - name: Check out the repo
+        uses: actions/checkout@v2
+      - name: Push to Docker Hub
+        uses: docker/build-push-action@v1
+        with:
+          username: gonigo
+          password: prnzeK3diUy6BCG
+          repository: gonigo/pushgateway-cleaner
+          tag_with_ref: true
+          tag_with_sha: true

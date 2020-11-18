@@ -8,4 +8,4 @@ COPY package*.json ./
 RUN npm install
 COPY src/ src/
 
-ENTRYPOINT ["node", "./src/index.js"]
+ENTRYPOINT ["npm", "run", "start"]
