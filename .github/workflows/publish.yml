@@ -6,7 +6,7 @@ on:
 
 jobs:
   test:
-    name: TODO
+    name: Intgration Test
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -30,8 +30,9 @@ jobs:
       - name: Check out the repo
         uses: actions/checkout@v2
       - name: Push to Docker Hub
-        uses: docker/build-push-action@v1
+        uses: docker/build-push-action@v2
         with:
           username: gonigo
           password: prnzeK3diUy6BCG
           repository: gonigo/pushgateway-cleaner
+          tags: latest
