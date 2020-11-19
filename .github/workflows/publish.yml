@@ -32,4 +32,4 @@ jobs:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
           repository: zooz/pushgateway-cleaner
-          tags: latest
+          tag_with_ref: true
