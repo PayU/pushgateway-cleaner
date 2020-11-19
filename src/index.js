@@ -15,3 +15,5 @@ const main = async () => {
 }
 
 main();
+
+require('../')
