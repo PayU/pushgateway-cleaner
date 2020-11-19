@@ -1,8 +1,5 @@
 name: Test, Build and Push PushGateway-Cleaner Image
-on:
-  push:
-    branches:
-      - add_code
+on: [push, pull_request]
 
 jobs:
   test:
