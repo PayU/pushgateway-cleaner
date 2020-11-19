@@ -1,8 +1,5 @@
 name: Test, Build and Push PushGateway-Cleanr Image
-on:
-  push:
-    branches:
-      - add_code
+on: push
 
 jobs:
   test:
@@ -26,14 +23,15 @@ jobs:
     name: Push Docker image to Docker Hub
     runs-on: ubuntu-latest
     needs: test
+    if: contains('${{ github.ref }}', 'main')
     steps:
       - name: Check out the repo
         uses: actions/checkout@v2
       - name: Push to Docker Hub
         uses: docker/build-push-action@v2
         with:
-          username: gonigo
-          password: prnzeK3diUy6BCG
-          repository: gonigo/pushgateway-cleaner
-          tag_with_ref: true
-          tag_with_sha: true
+          username: ${{ secrets.DOCKERHUB_USERNAME }}
+          password: ${{ secrets.DOCKERHUB_TOKEN }}
+          repository: zooz/pushgateway-cleaner
+          push: true
+          tags: latest
