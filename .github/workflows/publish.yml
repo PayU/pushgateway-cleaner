@@ -27,6 +27,9 @@ jobs:
     runs-on: ubuntu-latest
     needs: test
     steps:
+      - name: Read package.json
+        uses: tyankatsu0105/read-package-version-actions@v1
+        id: package-version
       - name: Show version number
         run: echo "Version is ${{ steps.package-version.outputs.version }}"
       - name: Check out the repo
