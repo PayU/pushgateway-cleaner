@@ -40,11 +40,11 @@ jobs:
           echo "::set-output name=version::$PACKAGE_VERSION_TRIM"
       - name: Print Version
         run: echo ${{ steps.package_version.outputs.version}}
-      # - name: Push to Docker Hub
-      #   uses: docker/build-push-action@v1
-      #   with:
-      #     username: ${{ secrets.DOCKERHUB_USERNAME }}
-      #     password: ${{ secrets.DOCKERHUB_TOKEN }}
-      #     repository: zooz/pushgateway-cleaner
-      #     push: true
-      #     tags: latest, version-${{ steps.package_version.outputs.version}}
+      - name: Push to Docker Hub
+        uses: docker/build-push-action@v1
+        with:
+          username: ${{ secrets.DOCKERHUB_USERNAME }}
+          password: ${{ secrets.DOCKERHUB_TOKEN }}
+          repository: zooz/pushgateway-cleaner
+          push: true
+          tags: latest, version-${{ steps.package_version.outputs.version }}
