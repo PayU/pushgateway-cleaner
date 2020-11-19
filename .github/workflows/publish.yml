@@ -36,8 +36,9 @@ jobs:
           | awk -F: '{ print $2 }' \
           | sed 's/[",]//g')
           echo PACKAGE_VERSION=$PACKAGE_VERSION
+          echo "::set-output name=PACKAGE_VERSION::$version"
       - name: Print Version
-        run: echo $PACKAGE_VERSION
+        run: echo ${{ steps.package_version.outputs.version}}
       # - name: Push to Docker Hub
       #   uses: docker/build-push-action@v1
       #   with:
