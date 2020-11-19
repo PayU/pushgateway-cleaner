@@ -36,4 +36,5 @@ jobs:
         with:
           repository: zooz/pushgateway-cleaner
           push: true
+          tags: latest
           tag_with_ref: true
