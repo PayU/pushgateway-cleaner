@@ -29,7 +29,13 @@ jobs:
         uses: actions/checkout@v2
       - name: Extract Version
         id: package_version
-        run: echo ::set-output name=version::$(echo $(sh ./scripts/extractVersion.sh))
+        run: |
+          PACKAGE_VERSION=$(cat package.json \
+          | grep version \
+          | head -1 \
+          | awk -F: '{ print $2 }' \
+          | sed 's/[",]//g')
+          echo PACKAGE_VERSION=$PACKAGE_VERSION
       - name: Print Version
         run: echo ${{ steps.package_version.outputs.version }}
       # - name: Push to Docker Hub
