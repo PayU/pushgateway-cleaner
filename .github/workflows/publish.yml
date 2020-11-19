@@ -28,7 +28,9 @@ jobs:
       - name: Check out the repo
         uses: actions/checkout@v2
       - name: Extract Version
-        run: echo ${{ outputs.version }}
+        uses: ./
+        id: package_version
+        run: echo ${{ steps.package_version.outputs.version }}
       - name: Push to Docker Hub
         uses: docker/build-push-action@v1
         with:
