@@ -1,4 +1,4 @@
-name: Test, Build and Push PushGateway-Cleanr Image
+name: Test, Build and Push PushGateway-Cleaner Image
 on:
   push:
     branches:
@@ -28,7 +28,7 @@ jobs:
     needs: test
     steps:
       - name: Read package.json
-        uses: tyankatsu0105/read-package-version-actions@v1
+        uses: pushgateway-cleaner/read-package-version-actions@v1
         id: package-version
       - name: Show version number
         run: echo "Version is ${{ steps.package-version.outputs.version }}"
