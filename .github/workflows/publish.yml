@@ -26,13 +26,10 @@ jobs:
     steps:
       - name: Check out the repo
         uses: actions/checkout@v2
-      - name: Login to DockerHub
-        uses: docker/login-action@v1 
-        with:
-          username: gonigo
-          password: prnzeK3diUy6BCG
       - name: Push to Docker Hub
         uses: docker/build-push-action@v2
         with:
+          username: gonigo
+          password: prnzeK3diUy6BCG
           repository: gonigo/testing-repo
           tag_with_ref: true
