@@ -27,14 +27,8 @@ jobs:
     steps:
       - name: Check out the repo
         uses: actions/checkout@v2
-      - name:
-        run: 
-          PACKAGE_VERSION=$(cat package.json \
-          | grep version \ 
-          | head -1 \ 
-          | awk -F: '{ print $2 }' \ 
-          | sed 's/[",]//g')
-          echo $PACKAGE_VERSION
+      - name: Extract Version
+        run: sh ./scripts/extractVersion.sh
       - name: Push to Docker Hub
         uses: docker/build-push-action@v1
         with:
