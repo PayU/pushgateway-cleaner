@@ -37,7 +37,7 @@ jobs:
           | sed 's/[",]//g')
           echo PACKAGE_VERSION=$PACKAGE_VERSION
       - name: Print Version
-        run: echo ${{ steps.package_version.outputs.version }}
+        run: echo $PACKAGE_VERSION
       # - name: Push to Docker Hub
       #   uses: docker/build-push-action@v1
       #   with:
