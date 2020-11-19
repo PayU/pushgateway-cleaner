@@ -8,4 +8,4 @@ COPY package*.json ./
 RUN npm install
 COPY src/ src/
 
-ENTRYPOINT ["./entrypoint.sh"]
+ENTRYPOINT ["npm", "run", "start"]
