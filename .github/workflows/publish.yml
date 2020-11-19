@@ -35,4 +35,5 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           repository: zooz/pushgateway-cleaner
+          push: true
           tag_with_ref: true
