@@ -6,6 +6,8 @@ WORKDIR /app
 
 COPY package*.json ./
 RUN npm install
-COPY ../src ./
 
-ENTRYPOINT ["npm", "run", "start"]
+RUN mkdir /src
+COPY src/ src/
+
+CMD [ "npm", "run", "start" ]
