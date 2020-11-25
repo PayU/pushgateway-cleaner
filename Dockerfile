@@ -1,11 +1,11 @@
 # APP
 FROM node:12
 
-RUN mkdir /app/src
-WORKDIR /app/src
+RUN mkdir /app
+WORKDIR /app
 
 COPY package*.json ./
 RUN npm install
-COPY /src /.
+COPY /src ./
 
-ENTRYPOINT ["npm", "run", "start"]
+ENTRYPOINT ["node", "run", "start"]
