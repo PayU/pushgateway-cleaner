@@ -1,8 +1,8 @@
 # APP
 FROM node:12
 
-RUN mkdir /app
-WORKDIR /app
+RUN mkdir /src
+WORKDIR /src
 
 COPY package*.json ./
 RUN npm install
