@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="da10f5f0-57b8-45b5-a62f-743939657823" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="SOFT" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="ProjectId" id="1kNQ6Tu7QwaKuiC2ya0XJ45G44L" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/scripts/env-configuration/clusters/mars-apps/jobs" />
+    <property name="nodejs.mocha.mocha_node_package_dir" value="$PROJECT_DIR$/node_modules/mocha" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/scripts/env-configuration/clusters/mars-apps/jobs" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Mocha.Integration tests:.Send slack notification.Successful notification send">
+    <configuration name="index.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="index.js" working-dir="$PROJECT_DIR$/src">
+      <envs>
+        <env name="TTL_HOURS" value="18" />
+        <env name="PUSHGATEWAY_URL" value="http://pushgateway-dev.ops.zooz.co:9091" />
+        <env name="SLACK_WEBHOOK_URL" value="https://hooks.slack.com/services/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" />
+      </envs>
+      <method v="2" />
+    </configuration>
+    <configuration name="Integration tests:.Send slack notification.Successful notification send" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <mocha-package>$PROJECT_DIR$/node_modules/mocha</mocha-package>
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST</test-kind>
+      <test-file>$PROJECT_DIR$/test/index.test.js</test-file>
+      <test-names>
+        <name value="Integration tests:" />
+        <name value="Send slack notification" />
+        <name value="Successful notification send" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="test/index.test.js" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <mocha-package>$PROJECT_DIR$/node_modules/mocha</mocha-package>
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST_FILE</test-kind>
+      <test-file>$PROJECT_DIR$/test/index.test.js</test-file>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Mocha.test/index.test.js" />
+      <item itemvalue="Node.js.index.js" />
+      <item itemvalue="Mocha.Integration tests:.Send slack notification.Successful notification send" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Mocha.Integration tests:.Send slack notification.Successful notification send" />
+        <item itemvalue="Mocha.test/index.test.js" />
+        <item itemvalue="Node.js.index.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="da10f5f0-57b8-45b5-a62f-743939657823" name="Default Changelist" comment="" />
+      <created>1605538394071</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605538394071</updated>
+      <workItem from="1605538395634" duration="5136000" />
+      <workItem from="1605625035007" duration="7157000" />
+      <workItem from="1606047667856" duration="1039000" />
+      <workItem from="1606637570272" duration="1332000" />
+      <workItem from="1608556397129" duration="3237000" />
+    </task>
+    <task id="LOCAL-00001" summary="fix: adding env vars">
+      <created>1605539416441</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605539416441</updated>
+    </task>
+    <task id="LOCAL-00002" summary="fix: adding env vars">
+      <created>1605539533305</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1605539533305</updated>
+    </task>
+    <task id="LOCAL-00003" summary="fix: dockerhub rate limit">
+      <created>1605598196225</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1605598196225</updated>
+    </task>
+    <task id="LOCAL-00004" summary="fix: mars deployment">
+      <created>1605700710121</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1605700710121</updated>
+    </task>
+    <task id="LOCAL-00005" summary="fix: mars deployment">
+      <created>1605700898785</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1605700898785</updated>
+    </task>
+    <task id="LOCAL-00006" summary="fix: mars deployment">
+      <created>1605701099174</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1605701099174</updated>
+    </task>
+    <task id="LOCAL-00007" summary="fix: mars deployment">
+      <created>1605701222690</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1605701222690</updated>
+    </task>
+    <task id="LOCAL-00008" summary="istio = false">
+      <created>1605705666253</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1605705666253</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fix: adding env vars" />
+    <MESSAGE value="fix: dockerhub rate limit" />
+    <MESSAGE value="fix: mars deployment" />
+    <MESSAGE value="istio = false" />
+    <option name="LAST_COMMIT_MESSAGE" value="istio = false" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="424" y="182" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1608558410216">
+      <screen x="0" y="25" width="1920" height="1055" />
+    </state>
+    <state x="424" y="169" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1920.970@0.25.1920.970" timestamp="1605636925932" />
+    <state x="424" y="182" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.-71.1920.970/0.25.1920.1055@0.25.1920.1055" timestamp="1608558410216" />
+    <state width="1920" height="438" key="DebuggerActiveHint" timestamp="1605637127091">
+      <screen x="0" y="25" width="1920" height="970" />
+    </state>
+    <state width="1920" height="438" key="DebuggerActiveHint/0.25.1920.970@0.25.1920.970" timestamp="1605637127091" />
+    <state x="100" y="134" width="1720" height="838" key="DiffContextDialog" timestamp="1608560211266">
+      <screen x="0" y="25" width="1920" height="1055" />
+    </state>
+    <state x="100" y="125" width="1720" height="770" key="DiffContextDialog/-1440.25.1440.875/0.25.1920.970@0.25.1920.970" timestamp="1605702771746" />
+    <state x="100" y="134" width="1720" height="838" key="DiffContextDialog/1920.-71.1920.970/0.25.1920.1055@0.25.1920.1055" timestamp="1608560211266" />
+    <state x="820" y="252" key="EnvironmentVariablesDialog" timestamp="1608558409479">
+      <screen x="0" y="25" width="1920" height="1055" />
+    </state>
+    <state x="820" y="252" key="EnvironmentVariablesDialog/1920.-71.1920.970/0.25.1920.1055@0.25.1920.1055" timestamp="1608558409479" />
+    <state width="1899" height="286" key="GridCell.Tab.0.bottom" timestamp="1608560150556">
+      <screen x="0" y="25" width="1920" height="1055" />
+    </state>
+    <state width="1899" height="259" key="GridCell.Tab.0.bottom/-1440.25.1440.875/0.25.1920.970@0.25.1920.970" timestamp="1606646647866" />
+    <state width="1899" height="320" key="GridCell.Tab.0.bottom/0.25.1920.970@0.25.1920.970" timestamp="1605637220421" />
+    <state width="1899" height="286" key="GridCell.Tab.0.bottom/1920.-71.1920.970/0.25.1920.1055@0.25.1920.1055" timestamp="1608560150556" />
+    <state width="1899" height="286" key="GridCell.Tab.0.center" timestamp="1608560150553">
+      <screen x="0" y="25" width="1920" height="1055" />
+    </state>
+    <state width="1899" height="259" key="GridCell.Tab.0.center/-1440.25.1440.875/0.25.1920.970@0.25.1920.970" timestamp="1606646647865" />
+    <state width="1899" height="320" key="GridCell.Tab.0.center/0.25.1920.970@0.25.1920.970" timestamp="1605637220421" />
+    <state width="1899" height="286" key="GridCell.Tab.0.center/1920.-71.1920.970/0.25.1920.1055@0.25.1920.1055" timestamp="1608560150553" />
+    <state width="1899" height="286" key="GridCell.Tab.0.left" timestamp="1608560150552">
+      <screen x="0" y="25" width="1920" height="1055" />
+    </state>
+    <state width="1899" height="259" key="GridCell.Tab.0.left/-1440.25.1440.875/0.25.1920.970@0.25.1920.970" timestamp="1606646647865" />
+    <state width="1899" height="320" key="GridCell.Tab.0.left/0.25.1920.970@0.25.1920.970" timestamp="1605637220420" />
+    <state width="1899" height="286" key="GridCell.Tab.0.left/1920.-71.1920.970/0.25.1920.1055@0.25.1920.1055" timestamp="1608560150552" />
+    <state width="1899" height="286" key="GridCell.Tab.0.right" timestamp="1608560150555">
+      <screen x="0" y="25" width="1920" height="1055" />
+    </state>
+    <state width="1899" height="259" key="GridCell.Tab.0.right/-1440.25.1440.875/0.25.1920.970@0.25.1920.970" timestamp="1606646647866" />
+    <state width="1899" height="320" key="GridCell.Tab.0.right/0.25.1920.970@0.25.1920.970" timestamp="1605637220421" />
+    <state width="1899" height="286" key="GridCell.Tab.0.right/1920.-71.1920.970/0.25.1920.1055@0.25.1920.1055" timestamp="1608560150555" />
+    <state width="1899" height="353" key="GridCell.Tab.1.bottom" timestamp="1608559134112">
+      <screen x="0" y="25" width="1920" height="1055" />
+    </state>
+    <state width="1899" height="320" key="GridCell.Tab.1.bottom/-1440.25.1440.875/0.25.1920.970@0.25.1920.970" timestamp="1605892758048" />
+    <state width="1899" height="320" key="GridCell.Tab.1.bottom/0.25.1920.970@0.25.1920.970" timestamp="1605637220422" />
+    <state width="1899" height="353" key="GridCell.Tab.1.bottom/1920.-71.1920.970/0.25.1920.1055@0.25.1920.1055" timestamp="1608559134112" />
+    <state width="1899" height="353" key="GridCell.Tab.1.center" timestamp="1608559134112">
+      <screen x="0" y="25" width="1920" height="1055" />
+    </state>
+    <state width="1899" height="320" key="GridCell.Tab.1.center/-1440.25.1440.875/0.25.1920.970@0.25.1920.970" timestamp="1605892758047" />
+    <state width="1899" height="320" key="GridCell.Tab.1.center/0.25.1920.970@0.25.1920.970" timestamp="1605637220421" />
+    <state width="1899" height="353" key="GridCell.Tab.1.center/1920.-71.1920.970/0.25.1920.1055@0.25.1920.1055" timestamp="1608559134112" />
+    <state width="1899" height="353" key="GridCell.Tab.1.left" timestamp="1608559134111">
+      <screen x="0" y="25" width="1920" height="1055" />
+    </state>
+    <state width="1899" height="320" key="GridCell.Tab.1.left/-1440.25.1440.875/0.25.1920.970@0.25.1920.970" timestamp="1605892758046" />
+    <state width="1899" height="320" key="GridCell.Tab.1.left/0.25.1920.970@0.25.1920.970" timestamp="1605637220421" />
+    <state width="1899" height="353" key="GridCell.Tab.1.left/1920.-71.1920.970/0.25.1920.1055@0.25.1920.1055" timestamp="1608559134111" />
+    <state width="1899" height="353" key="GridCell.Tab.1.right" timestamp="1608559134112">
+      <screen x="0" y="25" width="1920" height="1055" />
+    </state>
+    <state width="1899" height="320" key="GridCell.Tab.1.right/-1440.25.1440.875/0.25.1920.970@0.25.1920.970" timestamp="1605892758047" />
+    <state width="1899" height="320" key="GridCell.Tab.1.right/0.25.1920.970@0.25.1920.970" timestamp="1605637220421" />
+    <state width="1899" height="353" key="GridCell.Tab.1.right/1920.-71.1920.970/0.25.1920.1055@0.25.1920.1055" timestamp="1608559134112" />
+    <state width="1899" height="353" key="GridCell.Tab.2.bottom" timestamp="1608559134113">
+      <screen x="0" y="25" width="1920" height="1055" />
+    </state>
+    <state width="1899" height="320" key="GridCell.Tab.2.bottom/-1440.25.1440.875/0.25.1920.970@0.25.1920.970" timestamp="1605892758051" />
+    <state width="1899" height="320" key="GridCell.Tab.2.bottom/0.25.1920.970@0.25.1920.970" timestamp="1605637220422" />
+    <state width="1899" height="353" key="GridCell.Tab.2.bottom/1920.-71.1920.970/0.25.1920.1055@0.25.1920.1055" timestamp="1608559134113" />
+    <state width="1899" height="353" key="GridCell.Tab.2.center" timestamp="1608559134112">
+      <screen x="0" y="25" width="1920" height="1055" />
+    </state>
+    <state width="1899" height="320" key="GridCell.Tab.2.center/-1440.25.1440.875/0.25.1920.970@0.25.1920.970" timestamp="1605892758049" />
+    <state width="1899" height="320" key="GridCell.Tab.2.center/0.25.1920.970@0.25.1920.970" timestamp="1605637220422" />
+    <state width="1899" height="353" key="GridCell.Tab.2.center/1920.-71.1920.970/0.25.1920.1055@0.25.1920.1055" timestamp="1608559134112" />
+    <state width="1899" height="353" key="GridCell.Tab.2.left" timestamp="1608559134112">
+      <screen x="0" y="25" width="1920" height="1055" />
+    </state>
+    <state width="1899" height="320" key="GridCell.Tab.2.left/-1440.25.1440.875/0.25.1920.970@0.25.1920.970" timestamp="1605892758048" />
+    <state width="1899" height="320" key="GridCell.Tab.2.left/0.25.1920.970@0.25.1920.970" timestamp="1605637220422" />
+    <state width="1899" height="353" key="GridCell.Tab.2.left/1920.-71.1920.970/0.25.1920.1055@0.25.1920.1055" timestamp="1608559134112" />
+    <state width="1899" height="353" key="GridCell.Tab.2.right" timestamp="1608559134113">
+      <screen x="0" y="25" width="1920" height="1055" />
+    </state>
+    <state width="1899" height="320" key="GridCell.Tab.2.right/-1440.25.1440.875/0.25.1920.970@0.25.1920.970" timestamp="1605892758049" />
+    <state width="1899" height="320" key="GridCell.Tab.2.right/0.25.1920.970@0.25.1920.970" timestamp="1605637220422" />
+    <state width="1899" height="353" key="GridCell.Tab.2.right/1920.-71.1920.970/0.25.1920.1055@0.25.1920.1055" timestamp="1608559134113" />
+    <state width="1899" height="353" key="GridCell.Tab.3.bottom" timestamp="1608559134114">
+      <screen x="0" y="25" width="1920" height="1055" />
+    </state>
+    <state width="1899" height="320" key="GridCell.Tab.3.bottom/-1440.25.1440.875/0.25.1920.970@0.25.1920.970" timestamp="1605892758053" />
+    <state width="1899" height="320" key="GridCell.Tab.3.bottom/0.25.1920.970@0.25.1920.970" timestamp="1605637220423" />
+    <state width="1899" height="353" key="GridCell.Tab.3.bottom/1920.-71.1920.970/0.25.1920.1055@0.25.1920.1055" timestamp="1608559134114" />
+    <state width="1899" height="353" key="GridCell.Tab.3.center" timestamp="1608559134113">
+      <screen x="0" y="25" width="1920" height="1055" />
+    </state>
+    <state width="1899" height="320" key="GridCell.Tab.3.center/-1440.25.1440.875/0.25.1920.970@0.25.1920.970" timestamp="1605892758052" />
+    <state width="1899" height="320" key="GridCell.Tab.3.center/0.25.1920.970@0.25.1920.970" timestamp="1605637220423" />
+    <state width="1899" height="353" key="GridCell.Tab.3.center/1920.-71.1920.970/0.25.1920.1055@0.25.1920.1055" timestamp="1608559134113" />
+    <state width="1899" height="353" key="GridCell.Tab.3.left" timestamp="1608559134113">
+      <screen x="0" y="25" width="1920" height="1055" />
+    </state>
+    <state width="1899" height="320" key="GridCell.Tab.3.left/-1440.25.1440.875/0.25.1920.970@0.25.1920.970" timestamp="1605892758051" />
+    <state width="1899" height="320" key="GridCell.Tab.3.left/0.25.1920.970@0.25.1920.970" timestamp="1605637220422" />
+    <state width="1899" height="353" key="GridCell.Tab.3.left/1920.-71.1920.970/0.25.1920.1055@0.25.1920.1055" timestamp="1608559134113" />
+    <state width="1899" height="353" key="GridCell.Tab.3.right" timestamp="1608559134113">
+      <screen x="0" y="25" width="1920" height="1055" />
+    </state>
+    <state width="1899" height="320" key="GridCell.Tab.3.right/-1440.25.1440.875/0.25.1920.970@0.25.1920.970" timestamp="1605892758053" />
+    <state width="1899" height="320" key="GridCell.Tab.3.right/0.25.1920.970@0.25.1920.970" timestamp="1605637220423" />
+    <state width="1899" height="353" key="GridCell.Tab.3.right/1920.-71.1920.970/0.25.1920.1055@0.25.1920.1055" timestamp="1608559134113" />
+    <state x="720" y="216" key="RollbackChangesDialog" timestamp="1605700699846">
+      <screen x="0" y="25" width="1920" height="970" />
+    </state>
+    <state x="720" y="216" key="RollbackChangesDialog/-1440.25.1440.875/0.25.1920.970@0.25.1920.970" timestamp="1605700699846" />
+    <state x="560" y="247" key="Vcs.Push.Dialog.v2" timestamp="1605705667566">
+      <screen x="0" y="25" width="1920" height="970" />
+    </state>
+    <state x="560" y="247" key="Vcs.Push.Dialog.v2/-1440.25.1440.875/0.25.1920.970@0.25.1920.970" timestamp="1605705667566" />
+    <state x="625" y="238" width="670" height="676" key="search.everywhere.popup" timestamp="1605706490114">
+      <screen x="0" y="25" width="1920" height="970" />
+    </state>
+    <state x="625" y="238" width="670" height="676" key="search.everywhere.popup/-1440.25.1440.875/0.25.1920.970@0.25.1920.970" timestamp="1605706490114" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/notifier.js</url>
+          <line>16</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

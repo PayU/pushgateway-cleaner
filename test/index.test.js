@@ -144,10 +144,10 @@ describe('Integration tests:', () => {
 
         it('Successful notification send', async () => {
             const slackUrl = 'http://someurl.com';
-            const scope = nock('http://someurl.com:80', {"encodedQueryParams":true})
+            const scope = nock(slackUrl, {"encodedQueryParams":true})
                 .post('/', {"username":"Push Gateway Cleaner","text":"<!here> Cleanup completed","icon_emoji":":bathtub:","attachments":[{"color":"#ffcc00","fields":[{"title":"2 groups were deleted","value":"a,b"}]}]})
                 .reply(200, );
-            await notifySlack(['a', 'b'], 'slackUrl')
+            await notifySlack(['a', 'b'], slackUrl)
             scope.done();
         });
     });
