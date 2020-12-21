@@ -8,6 +8,7 @@ It works as job and not a service, which means that after cleanup the process wi
 | -----------------------------      | - | - |
 | PUSHGATEWAY_URL                    | the PushGateway endpoint (url + port) | http://100.10.102.23:9091 |
 | TTL_HOURS                          | metrics created during this time will not be removed | 24 |
+| SLACK_WEBHOOK_URL                  | optional slack webhook url to send notification upon successful cleanup | |
 
 
 ## Starting local

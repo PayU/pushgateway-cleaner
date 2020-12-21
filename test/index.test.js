@@ -3,6 +3,7 @@ const { expect } = require('chai');
 const logger = require('../src/logger');
 const { PUSHGATEWAY_URL } = process.env;
 const { getMetricsGroups, getExpiredGroups, removeExpiredGroups } = require('../src/metrics');
+const { notifySlack } = require('../src/notifier');
 
 const hoursInMilisec = 1*60*60*1000;
 const now = new Date();
@@ -112,7 +113,7 @@ describe('Integration tests:', () => {
                 .delete(uri => uri.includes('metrics'))
                 .times(expectedToRemoved)
                 .reply(202);
-        
+
             const groups = await getMetricsGroups(PUSHGATEWAY_URL);
             const rangeTimeForExpiredGroup = hoursInMilisec * 3; // 3 hours
             const expiredGroups = getExpiredGroups(groups, rangeTimeForExpiredGroup);
@@ -138,4 +139,16 @@ describe('Integration tests:', () => {
 
         })
     })
+
+    describe('Send slack notification', () => {
+
+        it('Successful notification send', async () => {
+            const slackUrl = 'http://someurl.com';
+            const scope = nock('http://someurl.com:80', {"encodedQueryParams":true})
+                .post('/', {"username":"Push Gateway Cleaner","text":"<!here> Cleanup completed","icon_emoji":":bathtub:","attachments":[{"color":"#ffcc00","fields":[{"title":"2 groups were deleted","value":"a,b"}]}]})
+                .reply(200, );
+            await notifySlack(['a', 'b'], 'slackUrl')
+            scope.done();
+        });
+    });
 });
