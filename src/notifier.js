@@ -9,7 +9,7 @@ const notifySlack = async (removedGroups, slackUrl) => {
             "color": "#ffcc00",
             "fields": [{
                 "title": `${removedGroups.length} groups were deleted`,
-                "value": removedGroups.join(',')
+                "value": removedGroups.map(o => JSON.stringify(o)).join(',')
             }]
         }]
     };
