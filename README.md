@@ -11,7 +11,7 @@ It works as job and not a service, which means that after cleanup the process wi
 | SLACK_WEBHOOK_URL                  | optional slack webhook url to send notification upon successful cleanup | |
 
 
-## Starting local
+## Starting local 
 ```npm install```  
 ```PUSHGATEWAY_URL=http://localhost:9091 TTL_HOURS=24 npm run start```
 
